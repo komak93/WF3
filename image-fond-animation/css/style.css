@@ -1,0 +1,17 @@
+body{
+    background: url(../img/afro-samurai-wallpaper.jpg) no-repeat;
+    background-size: cover;/*cover en css3 permet de couvrir tout l'écran*/
+}
+
+.contenu{
+    text-align: center;
+    width: 800px;
+    height: 500px;
+    background-color: rgba(187, 193, 182, 0.3);
+    margin: 10em auto 0 auto;
+}
+.contenu p, h2{
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
