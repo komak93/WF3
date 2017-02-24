@@ -1,0 +1,17 @@
+p{
+    margin: 0;
+}
+
+.orange{
+    color: #ba2;
+    border: 1px solid #369;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+#zone{
+    border: 2px solid #369;
+}
+
+/* lorsque la position relative est appliquée sur un élément, cet élément se place ou s'écarte pas rapport à lui même, il s'écarte pas rapport & sa position initiale (et non par rapport à la div dans laquelle l'élément est contenu, ni la fenêtre) */

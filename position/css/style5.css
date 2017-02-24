@@ -1,0 +1,22 @@
+.d1, .d2, .d3, .d4, .d5, .d6, .d7, .d8, .d9, .d10{
+    float: left;
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    border: 1px solid #000;
+    margin: 0.5em;
+    border-radius: 50% 10%;
+    box-shadow: 10px 10px 7px grey;
+}
+
+.clear{
+    clear: both;
+}
+
+div:nth-child(even){
+    background: linear-gradient(green, yellow)
+}
+
+div:nth-child(odd){
+    background: linear-gradient(red, black);
+}

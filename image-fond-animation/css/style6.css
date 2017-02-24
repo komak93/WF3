@@ -1,0 +1,25 @@
+p{
+    display: table;/* simule le comportement d'un tableau*/
+}
+
+span{
+    display: table-cell;/* equivault à une cellule <td> d'un tableau*/
+}
+
+img{
+    margin: 0 20px 0 0;
+}
+
+
+/*
+margin/padding  10px ↑, 9px →, 8px ↓, 7px ←, (dans le sens de l'aiguille d'une montre)
+margin/padding  10px ↑ ↓ , 7px ← → , (designent le haut et le bas puis la gauche et la droite)
+margin/padding  10px; marge de 10px tout autour
+
+padding:marge à l'intérieur d'un bloc.
+padding-left: marge ←
+padding-right: marge →
+padding-top: marge ↑
+padding-bottom: marge ↓
+
+*/

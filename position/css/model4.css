@@ -1,0 +1,56 @@
+#conteneur{
+    width: 1000px;
+    margin: 0 auto;
+    border: 2px solid #000;
+}
+
+header{
+    background: lightgreen;
+    width: 1000px;
+    height: 150px;
+}
+
+.menu{
+    background: magenta;
+    width: 1000px;
+}
+
+#mid{
+    height: 700px;
+    border: 15px solid #fff;
+}
+
+.A, .B, .C, .D{
+    height: 350px;
+    width: 480px;
+}
+
+.A{
+    background: lightgreen;
+    float: left;
+}
+
+.B{
+    background: orange;
+    float: left;
+}
+
+.C{
+    background: lightblue;
+    float: left;
+}
+
+.D{
+    background: red;
+    float: left;
+}
+
+footer{
+    background: lightgreen;
+    width: 1000px;
+    height: 100px;
+}
+
+.clear{
+    clear: both;
+}

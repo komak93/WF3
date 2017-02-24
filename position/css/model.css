@@ -1,0 +1,58 @@
+/*body{
+    background-color: grey;
+}
+
+.conteneur{
+    width: 80%;
+    height: 100%;
+    margin: 0 30px 0 150px;
+    border: 2px;
+    padding: 2em 1em;
+    background-color: #fff;
+}
+
+#zone1{
+    padding:5em;
+    background-color: red;
+    text-align: left;
+}
+
+#zone2{
+    padding: 5px 80px 635px 0;
+    background-color: blue;
+    float: left;
+}
+
+#zone3{
+    padding: 20em;
+    background-color: green;
+}*/
+
+#conteneur{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    background: red;
+    width: 1000px;
+    height: 200px;
+}
+
+.zoneGauche{
+    background: blue;
+    width: 200px;
+    height: 600px;
+    float: left;
+}
+
+.zoneMid{
+    background: green;
+    width: 800px;
+    height: 600px;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}

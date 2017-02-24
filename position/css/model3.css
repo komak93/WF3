@@ -1,0 +1,32 @@
+#conteneur{
+    width: 1000px;
+    margin: 0 auto;
+    border: 2px solid #000;
+}
+
+header{
+    background: lightgreen;
+    width: 1000px;
+    height: 150px;
+}
+
+.menu{
+    background: magenta;
+    width: 1000px;
+}
+
+.mid{
+    height: 600px;
+    background: orange;
+    border: 15px solid #fff;
+}
+
+footer{
+    background: lightgreen;
+    width: 1000px;
+    height: 100px;
+}
+
+.clear{
+    clear: both;
+}
