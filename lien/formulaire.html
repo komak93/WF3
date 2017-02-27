@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulaire</title>
+        <link rel="stylesheet" href="css/style2.css">
+    </head>
+
+    <body>
+        <form method="post" enctype="">
+            <label for="pseudo">Pseudo</label>
+            <input type="text" name="pseudo" id="pseudo" placeholder="Pseudo" required>
+            <br />
+
+            <br />
+            <label for="mdp">Mot de passe</label>
+            <input type="password" name="mdp" id="mdp" required>
+            <br />
+
+            <br />
+            <label for="prenom">Prénom</label>
+            <input type="text" name="prenom" id="prenom" placeholder="Lucas" required>
+            <br />
+
+            <br />
+            <label for="nom">Nom</label>
+            <input type="text" name="enom" id="nom" placeholder="Dupuis" required>
+            <br />
+
+            <br />
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="exemple@email.com" required>
+            <br />
+
+            <br />
+            <label for="avatar">Avatar</label>
+            <input type="file" name="avatar" ="avatar" placeholder="photo/avatar">
+            <br />
+
+            <br />
+            <label for="pays">Pays</label>
+            <select id="pays">
+                <optgroup label="Europe">
+                    <option value="fr">France</option>
+                    <option value="en">Angleterre</option>
+                    <option value="it">Italie</option>
+                    <option value="al">Allemangne</option>
+                    <option value="esp">Espagne</option>
+                    <option value="bl">Belgique</option>
+                </optgroup>
+            </select>
+            <p>
+                <label for="choix">Quel est votre fruit préféré ?</label>
+                <input type="checkbox" name="choix">Kiwi
+                <input type="checkbox" name="choix" checked>Banane
+                <input type="checkbox" name="choix">Fraise
+            </p>
+        </form>
+
+    </body>
+
+</html>

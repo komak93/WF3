@@ -32,9 +32,15 @@ header{
     height: 250px;
     float: left;
 }
+.d{
+    width: 1000px;
+    height: 250px;
+    background: red;
+    float: left;
+}
 
 .a{
-    background: lightgreen;
+    background: #bf1;
     float: left;
 }
 
@@ -48,12 +54,6 @@ header{
     float: left;
 }
 
-.d{
-    width: 1000px;
-    height: 250px;
-    background: red;
-    float: left;
-}
 
 .e{
     background: grey;
@@ -71,9 +71,9 @@ header{
 }
 
 footer{
-    background: lightgreen;
+    background: #52fa35;
     width: 1000px;
-    height: 100px;
+    height: 80px;
 }
 
 .clear{

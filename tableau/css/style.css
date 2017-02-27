@@ -1,0 +1,29 @@
+table{
+    /*background: linear-gradient(grey, white);*/
+    width: 600px;
+    border: 3px solid #ba2;
+    border-collapse: collapse;
+    /*text-align: center;*/
+    margin: 0 auto;
+}
+
+th{
+    background: #b4f;
+}
+
+td, th{
+    padding: 7px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+
+
+/*
+th représente les entetes/colonnes du tablea
+tr represente une nouvelle ligne du tableau
+td représente une nouvelle céllule du tableau
+clospan permet de fusionner les cellules horizontalement
+rowspan permet de fusionner les cellules verticalement
+ma propriete border-collapse determine si les bordures sont séparées ou fusionnées
+*/
