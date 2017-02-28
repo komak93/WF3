@@ -9,32 +9,32 @@
     <body>
         <form method="post" enctype="">
             <label for="pseudo">Pseudo</label>
-            <input type="text" name="pseudo" id="pseudo" placeholder="Pseudo" required>
+            <input type="text" name="pseudo" id="pseudo" placeholder="Pseudo" required />
             <br />
 
             <br />
             <label for="mdp">Mot de passe</label>
-            <input type="password" name="mdp" id="mdp" required>
+            <input type="password" name="mdp" id="mdp" required />
             <br />
 
             <br />
             <label for="prenom">Prénom</label>
-            <input type="text" name="prenom" id="prenom" placeholder="Lucas" required>
+            <input type="text" name="prenom" id="prenom" placeholder="Lucas" required />
             <br />
 
             <br />
             <label for="nom">Nom</label>
-            <input type="text" name="enom" id="nom" placeholder="Dupuis" required>
+            <input type="text" name="nom" id="nom" value="Dupuis" placeholder="Dupuis" required disabled />
             <br />
 
             <br />
             <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="exemple@email.com" required>
+            <input type="email" name="email" id="email" placeholder="exemple@email.com" required />
             <br />
 
             <br />
             <label for="avatar">Avatar</label>
-            <input type="file" name="avatar" ="avatar" placeholder="photo/avatar">
+            <input type="file" name="avatar" ="avatar" placeholder="photo/avatar" />
             <br />
 
             <br />
@@ -55,6 +55,63 @@
                 <input type="checkbox" name="choix" checked>Banane
                 <input type="checkbox" name="choix">Fraise
             </p>
+
+            <label for="ville">Ville</label>
+            <input type="text" name="ville" id="ville" list="france" seleceted="Paris" />
+            <datalist id="france">
+                <option value="">Paris</option>
+                <option value="">Marseille</option>
+                <option value="">Lyon</option>
+            </datalist>
+            <br />
+
+            <br />
+            <label for="cp">Code Postal</label>
+            <input type="text" name="cp" id="cp" maxlength="5" pattern="[0-9]{5}" title="5 chiffres requis entre 0 et 9" />
+            <br />
+
+            <br />
+            <label for="adresse">Adresse</label>
+            <textarea name="adresse" id="adresse" rows="5" cols="25"></textarea>
+            <br />
+
+            <br />
+            <label for="birthday">Date de naissance</label>
+            <input type="date" name="birthday" id="birthday" />
+            <br />
+
+            <br />
+            <label for="jauge">Jauge</label>
+            <input type="range" id="jauge" value="26" min="25" max="50" />
+            <br />
+
+            <br />
+            <label for="tel">Téléphone</label>
+            <input type="tel" maxlength="10" pattern="[0-9]{10}" name="tel" id="tel" />
+            <br />
+
+            <br />
+            <label for="recherche">Recherche</label>
+            <input type="text" pattern="[a-zA-Z0-9.-_]+" title="caractères autorisés : a-zA-Z0-9.-_" name="recherche" id="recherche" />
+            <br />
+
+            <br />
+            <label for="color">Couleur</label>
+            <input type="color" name="color" id="color" />
+            <br />
+
+            <br />
+            <label for="avatar">Avatar</label>
+            <input type="file" name="avatar" id="avatar" multiple />
+            <br />
+
+            <br />
+            <input type="hidden" name="cache" id="cache" /> <!-- à revoir en PHP -->
+            <br />
+
+            <br />
+            <input type="submit" name="inscription" value="S'inscrire">
+            <input type="reset" name="efface" value="recommencer">
         </form>
 
     </body>

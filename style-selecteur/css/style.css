@@ -1,0 +1,12 @@
+html, body, div, span, h1, h2, h3, p, menu, footer, header{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    border: 0;
+}
+
+/*
+Plusieur élément (dans cet exemple: h1, p) héritage de marge et autres qu'on ne pas toujours conserver
+
+en faisant un reset, on ne nous impose rien; ensuite, rien ne nous empeche de définir notre porpore style nos propres choix.
+*/
