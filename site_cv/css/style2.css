@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+body{
+    font-family: 'Sansita', sans-serif;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+header{
+    background:linear-gradient(white, white, grey);
+    width: 100%;
+    height: 110px;
+}
+
+.top{
+    width: 1000px;
+    margin: 0 auto;
+    height: 100px;
+    }
+    .topleft{
+        float: left;
+        width: 700px;
+        height: 80px;
+    }
+    .topleft h2{
+        margin-left: 20px;
+    }
+    .topright{
+        font-size: 13px;
+        text-align: right;
+        float: left;
+        width: 300px;
+        height: 80px;
+    }
+    .topright a{
+        color: blue;
+    }
+    nav{
+        width: 500px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    nav a{
+        display: inline-block;
+        padding: 0 20px;
+        color: black;
+    }
+    nav a:hover{
+        background: #8CAACC;
+        border-radius: 10%;
+        color: white;
+    }
+
+section{
+    text-align: center;
+    margin: 15px auto;;
+    width: 1000px;
+    height: 720px;
+}
+.left{
+    /*background: pink;*/
+    text-align: left;
+    width: 300px;
+    height: 720px;
+    float: left;
+    font-size: 15px;
+    }
+
+
+
+.right{
+    /*background: green;*/
+    width: 700px;
+    height:720px;
+    float: left;
+    }
+
+    #competences{
+        position: absolute;
+        text-indent: -3000px;
+        transition: 2s;
+        }
+        #competences:target{
+            position:absolute;
+            text-indent: 0;
+        }
+s
+    #activite{
+        position: absolute;
+        text-indent: -3000px;
+        transition: 2s;
+        }
+        #activite:target{
+            position:absolute;
+            text-indent: 0;
+        }
+
+    #exp{
+        position: absolute;
+        text-indent: -3000px;
+        transition: 2s;
+        }
+        #exp:target{
+            position:absolute;
+            text-indent: 0;
+        }
+
+    #logiciel{
+        position: absolute;
+        text-indent: -3000px;
+        transition: 2s;
+        }
+        #logiciel:target{
+            position:absolute;
+            text-indent: 0;
+        }
+
+    #langue{
+        position: absolute;
+        text-indent: -3000px;
+        transition: 2s;
+        }
+        #langue:target{
+            position:absolute;
+            text-indent: 0;
+        }
+
+    #loisir{
+        position: absolute;
+        text-indent: -3000px;
+        transition: 2s;
+        }
+        #loisir:target{
+            position:absolute;
+            text-indent: 0;
+        }
+
+footer{
+    clear: both;
+    background: linear-gradient(grey, white, white);
+    width: 100%;
+    height: 100px;
+}
+
+.bottom{
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+    height: 80px;
+    font-size: 13px;
+    }
+    .bottom a{
+        color: blue;
+    }
+
+
+.clear{
+    clear: both;
+}
