@@ -1,0 +1,142 @@
+*{
+    text-decoration: none;
+    border: 0;
+    margin:0;
+    padding: 0
+}
+header{
+    /*background: red;*/
+    width: 100%;
+    height: 90px;
+    border-bottom: 2px solid #6C9CCA;
+    }
+    header h2 a{
+        color: #4670af;
+    }
+    .hcontenu{
+        /*background: orange;*/
+        width: 1000px;
+        height: 70px;
+        margin: 0 auto;
+    }
+    .hleft{
+        text-align: left;
+        /*background: blue;*/
+        width: 800px;
+        margin: 0 auto;
+        height: 65px;
+        float: left;
+    }
+    .hleft img{
+        width: 90px;
+        height: 80px;
+        float: left;
+    }
+    .hleft a{
+        float: left;
+    }
+    .hright{
+        text-align: right;
+        /*background: blue;*/
+        margin: 0 auto;
+        width: 200px;
+        height: 65px;
+        float: left;
+    }
+
+nav{
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: -30px;
+    }
+    nav ul li{
+        display: inline-block;
+        text-align: center;
+        margin: 0 20px 0 15px;
+    }
+    nav ul li a{
+        color: black;
+    }
+
+section{
+    background: linear-gradient(#e0e2e5, white);
+    width: 1000px;
+    height: 715px;
+    border-radius: 30px;
+    margin: 30px auto;
+    padding: 10px;
+    }
+    .left{
+        float: left;
+        /*background: red;*/
+        width: 500px;
+    }
+    .tleft{
+        width: 500px;
+        height: 250px;
+        font-size: 24px;
+        float: left;
+    }
+    .tleft span{
+        color: #4670af;
+    }
+    .bleft{
+        width: 500px;
+        float: left;
+    }
+    .bleft p{
+        border-bottom: 2px solid #979ea8;
+        margin-bottom: 10px;
+    }
+    .bleft h2, .tright h2{
+        color: #4670af;
+        font-size: 25px;
+        text-align: center;
+        background: url(../img/fleche.png) left center no-repeat;
+    }
+    .bleft img{
+        float: left;
+        margin: 0 15px 0 0;
+    }
+    .right{
+        /*background: blue;*/
+        width: 500px;
+        float: left;
+    }
+    .tright{
+        text-align: center;
+        float: right;
+    }
+    .tright h2{
+        background: url(../img/fleche.png) left center no-repeat;
+    }
+    .tright img{
+        width: 450px;
+    }
+    .tright a{
+        padding: 0 175px;
+        background: #404142;
+        color: white;
+        font-size: 25px;
+        border-radius: 20px;
+    }
+    .bright{
+        margin: 0 0 0 20px;
+        float: none;
+    }
+footer{
+    text-align: center;
+    margin: 30px 0 0 0;
+    background: #616366;
+    width: 100%;
+    height: 100px;
+    }
+    footer a{
+        display: inline-block;
+        margin: 30px 15px 0 0 ;
+    }
+
+.clear{
+    clear: both;
+}

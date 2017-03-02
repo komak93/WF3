@@ -1,3 +1,4 @@
+/*  INdex Style   */
 *{
     margin: 0;
     padding: 0;
@@ -45,6 +46,7 @@ header{
         margin: 0 auto;
     }
     nav a{
+        transition: 0.5s;
         display: inline-block;
         padding: 0 30px;
         color: black;
@@ -131,6 +133,130 @@ footer{
     .bottom a{
         color: blue;
     }
+
+/*******Mon CV Style*******/
+/******Classe changes******/
+
+.cvleft{
+    /*background: pink;*/
+    text-align: left;
+    width: 300px;
+    height: 720px;
+    float: left;
+    font-size: 15px;
+    }
+    .cvleft ul li{
+        margin-bottom: 5px;
+        display: inherit;
+        background: url(../img/fleche2.png) left center no-repeat;
+        padding: 0 0 0 30px;
+    }
+
+.cvright{
+    font-style: italic;
+    font-size: 14px;
+    /*background: green;*/
+    width: 700px;
+    height:720px;
+    float: left;
+    }
+
+    #competences{
+        position: absolute;
+        text-indent: -3000px;
+        transition: 2s;
+        }
+        #competences:target{
+            position:absolute;
+            text-indent: 0;
+        }
+    #activite{
+        position: absolute;
+        text-indent: -2000px;
+        transition: 2s;
+        }
+        #activite:target{
+            position:absolute;
+            text-indent: 0;
+        }
+
+    #exp{
+        position: absolute;
+        text-indent: -3000px;
+        transition: 2s;
+        }
+        #exp:target{
+            position:absolute;
+            text-indent: 0;
+        }
+
+    #logiciel{
+        position: absolute;
+        text-indent: -3000px;
+        transition: 2s;
+        }
+        #logiciel:target{
+            position:absolute;
+            text-indent: 0;
+        }
+
+    #langue{
+        position: absolute;
+        text-indent: -3000px;
+        transition: 2s;
+        }
+        #langue:target{
+            position:absolute;
+            text-indent: 0;
+        }
+
+    #loisir{
+        position: absolute;
+        text-indent: -3000px;
+        transition: 2s;
+        }
+        #loisir:target{
+            position:absolute;
+            text-indent: 0;
+        }
+/******Contact style******/
+/*****Classe changes*****/
+
+.cleft{
+    padding: 33px 0 0 0;
+    text-align: left;
+    float: left;
+    /*background: red;*/
+    width: 500px;
+    height: 730px;
+}
+.cright{
+    float: left;
+    /*background: blue;*/
+    width: 500px;
+    height: 730px;
+}
+.rtop{
+    text-align: left;
+    /*background: green;*/
+    width: 500px;
+    height: 360px;
+    float: left;
+
+}
+.rbottom{
+    /*background: grey;*/
+    width: 500px;
+    height: 370px;
+    float: left;
+}
+input{
+    width: 68%;
+}
+input:last-child{
+    width: 11%
+}
+
 
 .clear{
     clear: both;

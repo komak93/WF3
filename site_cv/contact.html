@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Contact</title>
-        <link rel="stylesheet" href="css/style4.css">
+        <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
     </head>
 
@@ -33,31 +33,34 @@
 
         </header>
         <section>
-            <div class="left">
-                <br />
-                <br />
-                <label for="email">Expéditeur</label>
-                <br />
-                <input type="email" name="email" id="email" placeholder="exemple@email.com" />
-                <br />
+            <div class="cleft">
 
-                <br />
-                <label for="sujet">Sujet</label>
-                <br />
-                <input type="text" name="sujet" id="sujet" placeholder="Votre sujet..." />
-                <br />
+                <form action="mes_projets.html" method="post">
+                    <br />
+                    <br />
+                    <label for="email">Expéditeur</label>
+                    <br />
+                    <input type="email" name="email" id="email" placeholder="exemple@email.com" required />
+                    <br />
 
-                <br />
-                <label for="message">Message</label>
-                <br />
-                <textarea id="message" name="name" rows="10" cols="40" placeholder="Entrez votre message..."></textarea>
-                <br />
+                    <br />
+                    <label for="sujet">Sujet</label>
+                    <br />
+                    <input type="text" name="sujet" id="sujet" placeholder="Votre sujet..." required />
+                    <br />
 
-                <br />
-                <input type="submit" name="envoyer" value="Envoyer">
+                    <br />
+                    <label for="message">Message</label>
+                    <br />
+                    <textarea id="message" name="name" rows="10" cols="40" placeholder="Entrez votre message..."></textarea>
+                    <br />
+
+                    <br />
+                    <input type="submit" name="envoyer" value="Envoyer">
+                </form>
             </div>
 
-            <div class="right">
+            <div class="cright">
                 <div class="rtop">
                     <h2>Contact</h2>
                     <br />
