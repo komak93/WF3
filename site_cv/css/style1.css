@@ -5,7 +5,7 @@
     padding: 0
 }
 header{
-    /*background: red;*/
+    /*background: red; color zoning*/
     width: 100%;
     height: 90px;
     border-bottom: 2px solid #6C9CCA;
@@ -14,14 +14,14 @@ header{
         color: #4670af;
     }
     .hcontenu{
-        /*background: orange;*/
+        /*background: orange; color zoning*/
         width: 1000px;
         height: 70px;
         margin: 0 auto;
     }
     .hleft{
         text-align: left;
-        /*background: blue;*/
+        /*background: blue; color zoning*/
         width: 800px;
         margin: 0 auto;
         height: 65px;
@@ -37,7 +37,7 @@ header{
     }
     .hright{
         text-align: right;
-        /*background: blue;*/
+        /*background: blue; color zoning*/
         margin: 0 auto;
         width: 200px;
         height: 65px;
@@ -69,7 +69,7 @@ section{
     }
     .left{
         float: left;
-        /*background: red;*/
+        /*background: red; color zoning*/
         width: 500px;
     }
     .tleft{
@@ -100,7 +100,7 @@ section{
         margin: 0 15px 0 0;
     }
     .right{
-        /*background: blue;*/
+        /*background: blue; color zoning*/
         width: 500px;
         float: left;
     }
@@ -108,14 +108,11 @@ section{
         text-align: center;
         float: right;
     }
-    .tright h2{
-        background: url(../img/fleche.png) left center no-repeat;
-    }
     .tright img{
         width: 450px;
     }
     .tright a{
-        padding: 0 175px;
+        padding: 0 170px;
         background: #404142;
         color: white;
         font-size: 25px;
@@ -131,8 +128,10 @@ footer{
     background: #616366;
     width: 100%;
     height: 100px;
+    color: white;
     }
     footer a{
+        color: blue;
         display: inline-block;
         margin: 30px 15px 0 0 ;
     }
