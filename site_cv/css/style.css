@@ -29,6 +29,10 @@ header{
     }
     .topleft h2{
         margin-left: 20px;
+        text-shadow: 4px 4px 4px gray;
+    }
+    .topleft strong{
+        color: #1873af;
     }
     .topright{
         font-size: 13px;
@@ -256,7 +260,6 @@ input{
 input:last-child{
     width: 11%
 }
-
 
 .clear{
     clear: both;

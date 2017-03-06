@@ -1,45 +1,89 @@
 #conteneur{
-    width: 1000px;
+    /*width: 1000px;
     margin: 0 auto;
-    border: 2px solid #000;
+    border: 2px solid #000;*/
+    border: 2px solid;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1200px;
+    font-size: 1.2vw;
 }
 
 header{
-    background: lightgreen;
+    /*background: lightgreen;
     width: 1000px;
-    height: 150px;
+    height: 150px;*/
+    background: #f6523f;
+    height: 15vh;
 }
 
 .menu{
-    background: magenta;
+    /*background: magenta;
     width: 1000px;
-    height: 30px;
+    height: 30px;*/
+    background: #ba2;
+    height: 5vh;
 }
 
 #mid{
-    height: 750px;
+    /*height: 750px;
     /*border: 15px solid #fff;*/
+    width: 100%
+    background: #653;
+    margin: 2%;
 }
 
 .a, .c, .e, .g{
-    height: 250px;
-    width: 250px;
+    width: 20%;
+    height: 28vh;
     float: left;
 }
 
 .b, .f{
-    width: 500px;
-    height: 250px;
+    width: 60%;
+    height: 28vh;
     float: left;
 }
 .d{
-    width: 1000px;
-    height: 250px;
+    width: 100%;
+    height: 28vh;
     background: red;
     float: left;
 }
 
 .a{
+    float: left;
+    width: 20%;
+    height: 28vh;
+    background: #369;
+}
+.b{
+    background: blue;
+    float: left;
+}
+.c{
+    float: left;
+    width: 20%;
+    height: 28vh;
+    background: #767676;
+}
+.e{
+    float: left;
+    width: 20%;
+    height: 28vh;
+    background: #fda500;
+}
+.f{
+    background: green;
+    float: left;
+}
+.g{
+    float: left;
+    width: 20%;
+    height: 28vh;
+    background: #aa2355;
+}
+/*.a{
     background: #bf1;
     float: left;
 }
@@ -68,12 +112,11 @@ header{
 .g{
     background: #ba2;
     float: left;
-}
+}*/
 
 footer{
-    background: #52fa35;
-    width: 1000px;
-    height: 80px;
+    background: #32f65f;
+    height: 7.5vh;
 }
 
 .clear{
